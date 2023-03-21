@@ -11,4 +11,5 @@ export const createUsers = (size = 10) => {
       age: i,
     });
   }
+  return users;
 };
