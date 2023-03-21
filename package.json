@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "repository for monorepo test",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.8.5"
+  },
+  "packageManager": "pnpm@7.29.3"
+}
